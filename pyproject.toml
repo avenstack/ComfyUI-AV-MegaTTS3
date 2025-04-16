@@ -1,0 +1,15 @@
+[project]
+name = "ComfyUI-AV-MegaTTS3"
+description = "🎧Ultra High-Quality Voice Cloning, Chinese and English."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["setproctitle", "attrdict", "librosa", "pydub", "pyloudnorm", "x-transformers", "torchdiffeq", "openai-whisper>=20240930", torch>=2.0.0]
+
+[project.urls]
+Repository = "https://github.com/avenstack/ComfyUI-AV-MegaTTS3"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "av"
+DisplayName = "ComfyUI-AV-MegaTTS3"
+Icon = ""
