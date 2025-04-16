@@ -1,0 +1,41 @@
+{
+  "7": {
+    "inputs": {
+      "voice": "1.声音优男1Haa.wav",
+      "text": [
+        "9",
+        0
+      ],
+      "language": "zh",
+      "step": 32,
+      "strength": 1.6,
+      "similarity": 2.5,
+      "unload_model": false
+    },
+    "class_type": "AVMegaTTS3",
+    "_meta": {
+      "title": "AV Mega TTS3"
+    }
+  },
+  "8": {
+    "inputs": {
+      "audio": [
+        "7",
+        0
+      ]
+    },
+    "class_type": "PreviewAudio",
+    "_meta": {
+      "title": "预览音频"
+    }
+  },
+  "9": {
+    "inputs": {
+      "prompt": "4月16日上午，马来西亚最高元首易卜拉欣在马来西亚国家王宫同中国国家主席习近平举行会见"
+    },
+    "class_type": "AVPromptInit",
+    "_meta": {
+      "title": "Prompt Init"
+    }
+  }
+}
