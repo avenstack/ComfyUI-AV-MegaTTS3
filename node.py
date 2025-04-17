@@ -113,5 +113,5 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "AVMegaTTS3": "AV Mega TTS3",
-    "AVPromptInit": "Prompt Init",
+    "AVPromptInit": "AV Prompt Init",
 }

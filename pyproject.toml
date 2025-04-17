@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-AV-MegaTTS3"
 description = "🎧Ultra High-Quality Voice Cloning, Chinese and English."
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
 dependencies = ["setproctitle", "attrdict", "librosa", "pydub", "pyloudnorm", "x-transformers", "torchdiffeq", "openai-whisper>=20240930", "torch>=2.0.0"]
 
